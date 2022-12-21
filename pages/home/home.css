@@ -1,0 +1,45 @@
+body{
+height: 100vh;
+}
+
+header {
+    text-align: right;
+}
+header button {
+    width: auto;
+}
+ol{
+    list-style-type: none;
+    padding: 0;
+    
+}
+ol li{
+    cursor: pointer;
+    background-color: white;
+    padding: 8px 16px;
+    border-bottom: 1px solid gray;
+}
+ol li:hover{
+    background-color: rgb(136, 131, 131);
+}
+p{
+    margin: 4px 0px;
+}
+ol li.expense{
+    border-left: 10px solid red;
+
+}
+ol li.income{
+    border-left: 10px solid green;
+
+}
+button.danger{
+    width: auto;
+    float:right;
+    display: none;
+    cursor: pointer;
+}
+
+ol li:hover button.danger{
+    display: block;
+}
