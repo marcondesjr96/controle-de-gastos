@@ -1,7 +1,8 @@
 .clear{
-    background: transparent;
+    background: rgb(157, 245, 157);
     border: none;
     cursor: pointer;
+
 }
 .solid{
     background: white;
@@ -9,7 +10,7 @@
     cursor: pointer;
 }
 .outline{
-    background: transparent;
+    background: rgb(2, 97, 2);
     color: white;
     border: 1px solid white;
 }

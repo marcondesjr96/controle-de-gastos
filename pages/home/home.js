@@ -33,7 +33,7 @@ function newTransaction(){
     window.location.href = "../transaction/transaction.html"
 }
 
-function addTransactionsToScreen(transactions){
+function addTransactionsToScreen(transactions){    
     const orderedList = document.getElementById('transactions');
 
     transactions.forEach(transaction =>{
