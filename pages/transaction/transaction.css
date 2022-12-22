@@ -4,3 +4,11 @@ header button {
 header {
     text-align: right;
 }
+.clear-button{
+    height: 40px;
+    width: 70px;
+    margin-right: 1px;
+    border-color: rgb(8, 138, 4);
+    cursor: pointer;
+    background-color: rgb(144, 240, 141);
+}
