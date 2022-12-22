@@ -38,8 +38,18 @@ button.danger{
     float:right;
     display: none;
     cursor: pointer;
+    background: transparent;
+    
 }
 
 ol li:hover button.danger{
     display: block;
+}
+.clear-button{
+    height: 40px;
+    width: 70px;
+    margin-right: 1px;
+    border-color: rgb(8, 138, 4);
+    cursor: pointer;
+    background-color: rgb(144, 240, 141);
 }
